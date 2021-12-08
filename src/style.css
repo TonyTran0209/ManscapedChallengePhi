@@ -29,10 +29,19 @@ body {
 
 .orderCard {
   margin: 75px 78px 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .orderNumber {
   font-family:'GraphikRegular', Arial;
@@ -52,7 +61,8 @@ body {
   background: #FFFFFF;
   margin-top: 25px;
   padding: 25px 25px 12px 25px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow: hidden;
 }
 
@@ -68,7 +78,8 @@ tr {
   text-align: center;
 }
 th, td {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-right: 40px;
 }
 th {
