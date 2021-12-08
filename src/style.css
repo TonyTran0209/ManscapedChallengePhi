@@ -1,0 +1,143 @@
+/***** START: Font Definition *****/
+@font-face {
+  font-family: "GraphikRegular";
+  src: url("fonts/GraphikRegular.eot");
+  src: local("☺"), url("fonts/GraphikRegular.woff") format("woff"),
+    url("fonts/GraphikRegular.ttf") format("truetype"),
+    url("fonts/GraphikRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GraphikSemibold";
+  src: url("fonts/GraphikSemibold.eot");
+  src: local("☺"), url("fonts/GraphikSemibold.woff") format("woff"),
+    url("fonts/GraphikSemibold.ttf") format("truetype"),
+    url("fonts/GraphikSemibold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+/***** END: Font Definition *****/
+
+body {
+  font-family: Arial;
+  background: #E5E5E5;
+  color: #1D1D1D;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.orderCard {
+  margin: 75px 78px 81px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.orderNumber {
+  font-family:'GraphikRegular', Arial;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.08px;
+}
+.orderNumber b {
+  font-family: Arial;
+}
+.orderDate {
+  letter-spacing: -0.08px;
+  text-align: right;
+}
+.orderDetail {
+  width: 100%;
+  background: #FFFFFF;
+  margin-top: 25px;
+  padding: 25px 25px 12px 25px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.tableWrapper {
+  overflow-y: auto;
+}
+table {
+  width: 100%;
+  margin-bottom: 27px;
+}
+tr {
+  height: 81px;
+  text-align: center;
+}
+th, td {
+  box-sizing: border-box;
+  padding-right: 40px;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+td {
+  border-bottom: 1px solid #E6E6E6;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.08px;
+}
+tr:last-of-type td {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.08px;
+}
+.img1 {
+  width: 62px;
+}
+.img2 {
+  width: 60px;
+}
+.left {
+  text-align: left;
+}
+
+.shipping {
+  max-width: 194px;
+  letter-spacing: -0.08px;
+}
+.shipping b {
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.tags {
+  margin-top: 12px;
+}
+.tag {
+  display: inline-block;
+  background: #D1D1D1;
+  border-radius: 30px;
+  padding: 3px 9px;
+  margin: 0 10px 10px 0;
+  color: #5A5A5A;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.06px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #E6E6E6;
+  margin: 20px 0 24px;
+}
+
+.btn {
+  display: inline-block;
+  background: #757575;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0 13px 13px 0;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
